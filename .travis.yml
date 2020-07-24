@@ -7,6 +7,7 @@ script:
     - python _runner_tests.py
     - python contemplate_koans.py about_asserts
     - python contemplate_koans.py about_strings
+    - python contemplate_koans.py about_none
 
 notifications:
   email: true
