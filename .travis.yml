@@ -9,6 +9,7 @@ script:
     - python contemplate_koans.py about_strings
     - python contemplate_koans.py about_none
     - python contemplate_koans.py about_lists
+    - python contemplate_koans.py about_list_assignments
 
 notifications:
   email: true
