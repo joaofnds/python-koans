@@ -11,6 +11,7 @@ script:
     - python contemplate_koans.py about_lists
     - python contemplate_koans.py about_list_assignments
     - python contemplate_koans.py about_dictionaries
+    - python contemplate_koans.py about_string_manipulation
 
 notifications:
   email: true
