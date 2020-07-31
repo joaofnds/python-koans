@@ -13,6 +13,7 @@ script:
     - python contemplate_koans.py about_dictionaries
     - python contemplate_koans.py about_string_manipulation
     - python contemplate_koans.py about_tuples
+    - python contemplate_koans.py about_methods
 
 notifications:
   email: true
