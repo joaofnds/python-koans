@@ -14,6 +14,7 @@ script:
     - python contemplate_koans.py about_string_manipulation
     - python contemplate_koans.py about_tuples
     - python contemplate_koans.py about_methods
+    - python contemplate_koans.py about_control_statements
 
 notifications:
   email: true
