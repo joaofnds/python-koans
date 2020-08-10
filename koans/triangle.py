@@ -17,6 +17,8 @@
 #   about_triangle_project_2.py
 #
 def triangle(a, b, c):
+    if _is_illogical(a, b, c): raise TriangleError('illogical triangle')
+
     distinct_sides = len({a, b, c})
     if distinct_sides == 1:
         return 'equilateral'
@@ -24,6 +26,9 @@ def triangle(a, b, c):
         return 'isosceles'
     elif distinct_sides == 3:
         return 'scalene'
+
+def _is_illogical(a, b, c):
+    return a >= (b+c) or b >= (a+c) or c >= (a+b)
 
 # Error class used in part 2.  No need to change this code.
 class TriangleError(Exception):
