@@ -18,6 +18,7 @@ script:
     - python contemplate_koans.py about_true_and_false
     - python contemplate_koans.py about_sets
     - python contemplate_koans.py about_triangle_project
+    - python contemplate_koans.py about_exceptions
 
 notifications:
   email: true
