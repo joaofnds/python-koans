@@ -20,6 +20,7 @@ script:
     - python contemplate_koans.py about_triangle_project
     - python contemplate_koans.py about_exceptions
     - python contemplate_koans.py about_triangle_project2
+    - python contemplate_koans.py about_iteration
 
 notifications:
   email: true
