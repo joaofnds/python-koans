@@ -22,6 +22,7 @@ script:
     - python contemplate_koans.py about_triangle_project2
     - python contemplate_koans.py about_iteration
     - python contemplate_koans.py about_comprehension
+    - python contemplate_koans.py about_generators
 
 notifications:
   email: true
