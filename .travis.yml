@@ -26,6 +26,7 @@ script:
     - python contemplate_koans.py about_lambdas
     - python contemplate_koans.py about_scoring_project
     - python contemplate_koans.py about_classes
+    - python contemplate_koans.py about_with_statements
 
 notifications:
   email: true
