@@ -28,6 +28,7 @@ script:
     - python contemplate_koans.py about_classes
     - python contemplate_koans.py about_with_statements
     - python contemplate_koans.py about_monkey_patching
+    - python contemplate_koans.py about_dice_project
 
 notifications:
   email: true
