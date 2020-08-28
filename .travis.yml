@@ -30,6 +30,7 @@ script:
     - python contemplate_koans.py about_monkey_patching
     - python contemplate_koans.py about_dice_project
     - python contemplate_koans.py about_method_bindings
+    - python contemplate_koans.py about_decorating_with_functions
 
 notifications:
   email: true
