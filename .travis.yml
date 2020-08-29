@@ -31,6 +31,7 @@ script:
     - python contemplate_koans.py about_dice_project
     - python contemplate_koans.py about_method_bindings
     - python contemplate_koans.py about_decorating_with_functions
+    - python contemplate_koans.py about_decorating_with_classes
 
 notifications:
   email: true
