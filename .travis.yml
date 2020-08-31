@@ -32,6 +32,7 @@ script:
     - python contemplate_koans.py about_method_bindings
     - python contemplate_koans.py about_decorating_with_functions
     - python contemplate_koans.py about_decorating_with_classes
+    - python contemplate_koans.py about_inheritance
 
 notifications:
   email: true
