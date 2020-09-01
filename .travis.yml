@@ -34,6 +34,7 @@ script:
     - python contemplate_koans.py about_decorating_with_classes
     - python contemplate_koans.py about_inheritance
     - python contemplate_koans.py about_multiple_inheritance
+    - python contemplate_koans.py about_scope
 
 notifications:
   email: true
