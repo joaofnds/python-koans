@@ -36,6 +36,7 @@ script:
     - python contemplate_koans.py about_multiple_inheritance
     - python contemplate_koans.py about_scope
     - python contemplate_koans.py about_modules
+    - python contemplate_koans.py about_packages
 
 notifications:
   email: true
