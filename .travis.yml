@@ -38,6 +38,7 @@ script:
     - python contemplate_koans.py about_modules
     - python contemplate_koans.py about_packages
     - python contemplate_koans.py about_class_attributes
+    - python contemplate_koans.py about_attribute_access
 
 notifications:
   email: true
