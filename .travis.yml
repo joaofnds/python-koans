@@ -40,6 +40,7 @@ script:
     - python contemplate_koans.py about_class_attributes
     - python contemplate_koans.py about_attribute_access
     - python contemplate_koans.py about_deleting_objects
+    - python contemplate_koans.py about_proxy_object_project
 
 notifications:
   email: true
