@@ -5,43 +5,7 @@ python:
 
 script:
     - python _runner_tests.py
-    - python contemplate_koans.py about_asserts
-    - python contemplate_koans.py about_strings
-    - python contemplate_koans.py about_none
-    - python contemplate_koans.py about_lists
-    - python contemplate_koans.py about_list_assignments
-    - python contemplate_koans.py about_dictionaries
-    - python contemplate_koans.py about_string_manipulation
-    - python contemplate_koans.py about_tuples
-    - python contemplate_koans.py about_methods
-    - python contemplate_koans.py about_control_statements
-    - python contemplate_koans.py about_true_and_false
-    - python contemplate_koans.py about_sets
-    - python contemplate_koans.py about_triangle_project
-    - python contemplate_koans.py about_exceptions
-    - python contemplate_koans.py about_triangle_project2
-    - python contemplate_koans.py about_iteration
-    - python contemplate_koans.py about_comprehension
-    - python contemplate_koans.py about_generators
-    - python contemplate_koans.py about_lambdas
-    - python contemplate_koans.py about_scoring_project
-    - python contemplate_koans.py about_classes
-    - python contemplate_koans.py about_with_statements
-    - python contemplate_koans.py about_monkey_patching
-    - python contemplate_koans.py about_dice_project
-    - python contemplate_koans.py about_method_bindings
-    - python contemplate_koans.py about_decorating_with_functions
-    - python contemplate_koans.py about_decorating_with_classes
-    - python contemplate_koans.py about_inheritance
-    - python contemplate_koans.py about_multiple_inheritance
-    - python contemplate_koans.py about_scope
-    - python contemplate_koans.py about_modules
-    - python contemplate_koans.py about_packages
-    - python contemplate_koans.py about_class_attributes
-    - python contemplate_koans.py about_attribute_access
-    - python contemplate_koans.py about_deleting_objects
-    - python contemplate_koans.py about_proxy_object_project
-    - python contemplate_koans.py about_regex
+    - python contemplate_koans.py
 
 notifications:
   email: true
