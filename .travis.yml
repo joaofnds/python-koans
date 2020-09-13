@@ -41,6 +41,7 @@ script:
     - python contemplate_koans.py about_attribute_access
     - python contemplate_koans.py about_deleting_objects
     - python contemplate_koans.py about_proxy_object_project
+    - python contemplate_koans.py about_regex
 
 notifications:
   email: true
